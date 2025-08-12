@@ -1,13 +1,14 @@
-package com.balitechy.spacewar.main;
+package com.balitechy.spacewar.CSpriteFactory;
 
+import com.balitechy.spacewar.main.Game;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-public class InputHandler extends KeyAdapter{
+public class SInputHandler extends KeyAdapter{
 	
 	private Game game;
 	
-	public InputHandler(Game game){
+	public SInputHandler(Game game){
 		this.game = game;
 	}
 

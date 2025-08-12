@@ -1,13 +1,14 @@
-package com.balitechy.spacewar.main;
+package com.balitechy.spacewar.CSpriteFactory;
 
+import com.balitechy.spacewar.Interfaces.IBG;
 import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
-public class BackgroundRenderer {
-
+public class SBackgroundRenderer implements IBG{
+        @Override
 	public void render(Graphics g, Canvas c) throws IOException{
 		BufferedImage background = null;
 		SpritesImageLoader bg;
