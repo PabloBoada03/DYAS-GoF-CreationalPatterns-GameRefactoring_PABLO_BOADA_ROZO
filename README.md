@@ -22,9 +22,3 @@ Para este taller, se hizo la siguiente refactorización:
 
 ---
 
-## ✅ Resultados
-- Código más **modular, flexible y extensible**.  
-- Facilidad para **probar y cambiar estilos gráficos** desde el menú en consola.  
-- Posibilidad de usar un **estilo visual en vectores** gracias a la implementación del algoritmo de polígonos.  
-
----
